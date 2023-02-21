@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emiliano Perez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Marvel:wght@400;700&family=Neucha&family=Shantell+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/perfil.css" />
+    <link rel="stylesheet" href="css/habilidades.css" />
+    <link rel="stylesheet" href="css/experiencias.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img height="50" width="50" src="img/logo.jpg" alt="Programador" />
+          <div class="img-logo-nombre">Emiliano<br> Perez</div>
+        </a>
+        <button class="abrir-menu" aria-label="Abrir Menú">
+          <img src="img/menu.svg" alt="Abrir Menú" />
+        </button>
+        <ul class="menu">
+          <button class="cerrar-menu" aria-label="Cerrar Menú">
+            <img src="img/cierra.svg" alt="Cerrar Menú" />
+          </button>
+          <li><a href="#perfil" class="selected">Perfil</a></li>
+          <li><a href="#exp">Trayectoria</a></li>
+          <li><a href="#hab">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="perfil" id="perfil">
+          <div class="info-perfil">
+            <h1 class="titulo-perfil">
+              Hola, soy<br />
+              Emiliano Perez
+            </h1>
+            <p class="detalles-perfil">
+              Me considero una persona de mente muy abierta con ganas de nuevos
+              desafíos y muchas ganas de aprender. Me gusta indagar en aspectos que
+              me interesan y trato de superarme día a día en lo que haga.
+            </p>
+            
+          </div>
+          <div class="img-perfil">
+            <img class="perfil-imagen" src="img/logo.jpg" alt="Programador" />
+          </div>
+        </section>
+    </div>
+
+    <section class="exp" id="exp">
+      <img src="img/ola.svg" alt="división" class="ola" />
+      <div class="exp-body">
+        <h2 class="exp-titulo">Trayectoria Personal</h2>
+        <div class="exp-grid">
+          <div class="empty"></div>
+          <div class="linea"></div>
+          <div class="exp">
+            <div class="exp-fecha">2021-Act</div>
+            <div class="exp-lugar">Sindicatura General de la Provincia de Sta Fe</div>
+            <div class="exp-posicion">Contrato Temporal de Informático</div>
+            <div class="exp-desc">
+              Desarrollo Bases de Datos en una Red Lan del organismo para mejorar y agilizar el trabajo diario.<br>
+              Uso PHP, CSS, HTML, JavaScript y MySQL entre otras tecnologías.
+            </div>
+          </div>
+          <div class="exp exp-izq">
+            <div class="exp-fecha">2020-2022</div>
+            <div class="exp-lugar">Instituto Superior ICOP</div>
+            <div class="exp-posicion">Egresado</div>
+            <div class="exp-desc">
+              Titulo Terciario de Técnico Superior en Desarrollo de Software.
+               3 años de carrera con mas de 25 materias.
+            </div>
+          </div>
+          <div class="linea"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="linea"></div>
+          <div class="exp">
+            <div class="exp-fecha">2012-2016</div>
+            <div class="exp-lugar">Escuela Normal Superior y Superior de Comercio Nro.46
+              “D.G.S”</div>
+            <div class="exp-posicion">Egresado</div>
+            <div class="exp-desc">
+              -Título Secundario de Bachiller en Ciencias Sociales.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/ola.svg" alt="división" class="ola ola-abajo">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="hab" id="hab">
+            <h2 class="hab-titulo">Habilidades</h2>
+            <ul class="hab-lista">
+                <li class="hab-habi">HTML</li>
+                <li class="hab-habi">PHP</li>
+                <li class="hab-habi">CSS</li>
+                <li class="hab-habi">JavaScript</li>
+                <li class="hab-habi">Java</li>
+                <li class="hab-habi">C++</li>
+                <li class="hab-habi">MySQL</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contacto" id="contacto">
+        <h2 class="contacto-titulo">Contacto</h2>
+        
+        <div class="contacto-detalles">
+          <div class="contacto-det-grupo">
+            <p class="contacto-label">Dirección:</p>
+            <p class="contacto-texto">Santa Fe, Argentina</p>
+          </div>
+          <div class="contacto-det-grupo">
+            <p class="contacto-label">Email:</p>
+            <p class="contacto-texto">emiprz04@hotmail.com</p>
+          </div>
+        </div>
+
+          <nav class="redes">
+            <p class="contacto-label">Redes Sociales:</p>
+            <ul class="redes-lista">
+              <li>
+                  <a href="https://www.facebook.com/Emiprz04/" target="_blank" class="btn facebook">
+                    <img src="img/facebook.svg" alt="Facebook" width="20" height="20">
+                  </a>
+                  <a href="https://www.instagram.com/emiiperez04/" target="_blank" class="btn instagram">
+                    <img src="img/instagram.svg" alt="Instagram" width="20" height="20">
+                  </a>
+                  <a href="https://twitter.com/EmiPerez04" target="_blank" class="btn twitter">
+                    <img src="img/twitter.svg" alt="Twitter" width="20" height="20">
+                  </a>
+                  <a href="https://www.linkedin.com/in/emiliano-perez-b6aaa5229/" target="_blank" class="btn linkedin">
+                    <img src="img/linkedin.svg" alt="Linkedin" width="20" height="20">
+                  </a>
+                  <a href="https://github.com/emiprz04" target="_blank" class="btn github">
+                    <img src="img/github.svg" alt="Github" width="20" height="20">
+                  </a>
+              </li>
+            </ul>
+          </nav>
+          
+          <div class="contacto-logo">
+            <img src="img/logo-contacto.png" alt="Logo Contacto"/>
+          </div>
+        
+      </section>
+    </div>
+  </body>
+</html>

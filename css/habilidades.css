@@ -1,0 +1,39 @@
+.hab{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hab-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hab-habi{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.50);
+    border-radius: 50px;
+    padding: 0.5em 0.8em;
+    margin: 10px;
+}
+
+.hab-lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 950px) {
+    .hab-titulo{
+        font-size: 45px;
+    }
+    
+    .hab-habi{
+        font-size: 25px;
+        margin: 20px;
+    }
+}

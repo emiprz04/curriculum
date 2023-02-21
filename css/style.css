@@ -1,0 +1,87 @@
+:root {
+    --tema-color: white;
+    --color-primario: rgb(255, 150, 51);
+    --color-secundario: rgb(221, 190, 13);
+    --color-inverso: white;
+    --color-texto: black;
+    --sombra-nav-color: rgb(190, 190, 190);
+    --menu-movil-color-fondo: #2d3e6d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+body {
+    /*font-family: 'DM Serif Text', serif;
+    font-family: 'Marvel', sans-serif;*/
+    font-family: 'Neucha', cursive;
+    /*font-family: 'Shantell Sans', cursive;*/
+    background-color: var(--tema-color);
+    color: var(--color-texto);
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.btn {
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .btn:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .twitter:hover {
+    background-color: #00acee;
+  }
+
+  .linkedin:hover{
+    background-color: #0e76a8;
+  }
+
+  .github:hover {
+    background-color: #171515;
+  }
+  
+  .instagram:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+
+@media (min-width: 950px) {
+    .horizontal-padding{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .vertical-padding{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
